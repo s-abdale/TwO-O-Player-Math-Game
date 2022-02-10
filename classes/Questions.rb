@@ -9,16 +9,5 @@ class Question
 
   def output
     "What does #{@num1} + #{@num2} equal?"
-
-    # TESTING
-    # ": What does #{@num1} + #{@num2} equal? Answer is: #{answer}!"
-
   end
 end
-
-
-# TESTING
-# puts "🔎 questions running ..."
-
-# p = Question.new
-# puts p.output

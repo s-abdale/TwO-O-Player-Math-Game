@@ -1,14 +1,11 @@
 class Game
-
   attr_accessor :player1, :player2, :currentPlayer
-
 
   def initialize()
     @player1 = Player.new('👾 Player 1')
     @player2 = Player.new('🤖 Player 2')
     @current_player = @player1
   end
-
 
   # start round
   def start_game
@@ -70,7 +67,6 @@ class Game
     @current_player == @player1 ? (@current_player = @player2) : (@current_player = @player1)
 
     puts "NEW PLAYER: #{@current_player.name}"
-
   end
 
 end

@@ -2,7 +2,7 @@
 *LHL W9 D1*
 2-Player terminal game made in Ruby.
 
-#### Demo
+## Demo
 Basic functions of TwO-O-Player.
 !["Gif showing basic functionality of TwO-O-Player game in terminal, including game-over scenario"](https://github.com/s-abdale/TwO-O-Player-Math-Game/blob/master/docs/Demo.gif)
 

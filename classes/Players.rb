@@ -1,9 +1,8 @@
 class Player
-  # extract name, lives, wins
   attr_accessor :name, :lives, :wins
 
   def initialize(name)
-    @name = name    # declare name
+    @name = name
     @lives = 3    # start w/ full 3 lives
     @wins = 0   # start w/ 0 wins
   end
@@ -21,13 +20,3 @@ class Player
   end
 
 end
-
-
-# TESTING
-
-# show name
-# p = Player.new('👾 new player')
-# puts p.name
-
-# show living
-# puts "Is alive? ", p.player_alive
